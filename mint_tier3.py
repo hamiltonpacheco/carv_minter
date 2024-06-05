@@ -3,7 +3,7 @@ from web3 import Web3
 import config
 from abis import tier3
 
-rpc_key = "f949395f85054597b4ebd5b5ad3517d1"
+rpc_key = ""
 rpc_url = "https://arbitrum-mainnet.infura.io/v3/{}".format(rpc_key)
 web3 = Web3(Web3.HTTPProvider(rpc_url))
 account = web3.eth.account.from_key(config.private_key)
